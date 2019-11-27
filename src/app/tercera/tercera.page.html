@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tercera</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>1 de 3</ion-col>
+      <ion-col size="auto" class="cell-6">Variable segun contenido</ion-col>
+      <ion-col>3 de 3</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-input placeholder="escribe aqui" class="cell-5"></ion-input>
+      </ion-col>
+      <!-- El ion-col funciona como un ion item donde podemos poner 
+            varias cosas -->
+      <ion-col size="auto" class="cell-6">
+        <!-- La columna con el mayor alto es la que define el alto de toda
+        la fila -->
+        <ion-item>
+          <ion-label>Alguna cosa</ion-label>
+          <ion-input placeholder="escribe aqui" class="cell-5"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+          <ion-label>Alguna cosa</ion-label>
+          <ion-input placeholder="escribe aqui" class="cell-5"></ion-input>
+      </ion-col>
+      <ion-col class="cell-2"></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
